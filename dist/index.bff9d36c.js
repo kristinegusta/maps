@@ -1,0 +1,2 @@
+const btn=document.querySelector("#map");let toggleMap=!1;const mapContainer=document.querySelector("#map-container"),adressInputField=document.querySelector("#adress");btn.addEventListener("click",(e=>{if(0==toggleMap){mapboxgl.accessToken="pk.eyJ1Ijoia3JpaWthMiIsImEiOiJja3pxcTJvdTgwY3o2MnBtdW0yNXRjbWIyIn0.wZxIsEtWF9lU5MKLTRuQPQ";new mapboxgl.Map({container:"map-container",style:"mapbox://styles/mapbox/streets-v11",center:[-74.5,40],zoom:9});toggleMap=!0}else mapContainer.innerHTML="",toggleMap=!1}));
+//# sourceMappingURL=index.bff9d36c.js.map
